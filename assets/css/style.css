@@ -1747,8 +1747,8 @@ section {
 }
 
 .imageMd{
-  width: 12rem;
-  height:12rem;
+  width: 3.5rem;
+  /* height:5rem; */
   margin-right: -3rem;
 }
 .imageXs{
@@ -1761,7 +1761,8 @@ section {
   }
   .imageXs{
     display: initial;
-    width: 18rem;
-    height:18rem;
+    width: 8rem;
+    margin: 1rem;
+    /* height:18rem; */
   }
 }
