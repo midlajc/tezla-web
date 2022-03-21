@@ -1728,6 +1728,6 @@ section {
 }
 
 .disabled{
-  pointer-events: none;
-  cursor: default;
+  pointer-events: none !important;
+  cursor: none !important;
 }
