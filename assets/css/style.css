@@ -123,6 +123,8 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
+  position: relative;
+  /* height: 1rem; */
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -361,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: auto;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
@@ -377,7 +379,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .container {
   position: relative;
-  padding-top: 50px;
+  padding-top: 1spx;
   text-align: center;
 }
 #hero h1 {
