@@ -1702,6 +1702,7 @@ section {
 
 
 .typewriter h6{
+  padding: .8rem;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; 
   white-space: nowrap; /* Keeps the content on a single line */
@@ -1743,4 +1744,24 @@ section {
 .tezlaFont {
   font-family: tezlaFont;
   /* color: darkgreen; */
+}
+
+.imageMd{
+  width: 12rem;
+  height:12rem;
+  margin-right: -3rem;
+}
+.imageXs{
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .imageMd{
+    display: none;
+  }
+  .imageXs{
+    display: initial;
+    width: 18rem;
+    height:18rem;
+  }
 }
