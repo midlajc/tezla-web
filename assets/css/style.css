@@ -8,6 +8,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@font-face {
+  font-family: tezlaFont;
+  src: url('/assets/font/tesla.ttf');
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -1730,4 +1736,9 @@ section {
 .disabled{
   pointer-events: none !important;
   cursor: none !important;
+}
+
+.tezlaFont {
+  font-family: tezlaFont;
+  /* color: darkgreen; */
 }
