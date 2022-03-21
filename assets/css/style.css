@@ -1726,3 +1726,8 @@ section {
 .bgimg1{
   background-image:"assets/img/gaming.jpg";
 }
+
+.disabled{
+  pointer-events: none;
+  cursor: default;
+}
