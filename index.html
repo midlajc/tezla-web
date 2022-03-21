@@ -221,77 +221,86 @@
           <p class="text-white">Check our Events</p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box1">
 
-
-              <h3><a href=""><b>EXPO</b></a></h3>
-              <p class="text-white">Expo is one of the event conducted by tezla.
-                Here we will teach new technological things.
-                they are:
-
-              </p>
-            </div>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0 " background="assets/img/gaming.jpg"
-            data-aos="zoom-in" data-aos-delay="200">
-
-            <div class="icon-box2">
-              <!-- <div class="icon"><i class="bx bx-file"></i></div> -->
-              <h3><a href=""><b>CODING</b></a></h3>
-              <p class="text-white">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore<br>
-                nothing <br>
-                this thing <br>
-                from that <br><br>
-                never
-              </p>
-            </div>
-
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0 bg-img" data-aos="zoom-in"
-            data-aos-delay="300">
-            <div class="icon-box3 ">
-
-
-              <h3><a href=""><b>SPOT PHOTOGRAPHY</b></a></h4>
-                <p class="text-white">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 bgimg1" data-aos="zoom-in" data-aos-delay="100">
-            <div class="  icon-box4 ">
-
-              <h4><a href="">COMPUTER GAMES</a></h4>
-              <p class="text-white">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box5">
-
-              <h4><a href="">KEYBOARD ASSEMBLING</a></h4>
-              <p class="text-white">Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box6">
-
-              <h4><a href="">SPOT GAMES</a></h4>
-              <p class="text-white">Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box7">
-
-              <h4><a href="">SPOT DANCE</a></h4>
+        <div class="row d-flex justify-content-center">
+          
+          <div onclick="fireExpo()" class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in"
+            data-aos-delay="100">
+            <div class="text-white icon-box1">
+              <h3><b>EXPO</b></h3>
               <p class="text-white">
+                The Tech community of Dept. of CS hosts a Learning Hub and
+                Gear Lab, Allowing students to be introduced with new and old technologies.
+              </p>
+            </div>
+          </div>
 
+          <div onclick="fireCoding()" class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0 "
+            background="assets/img/gaming.jpg" data-aos="zoom-in" data-aos-delay="200">
+            <div class="text-white icon-box2">
+              <h3><b>CODING</b></h3>
+              <p class="text-white">
+                Each participants are required to achieve a
+                certain goal using code in C/C++ . The winner is selected according
+                to effective logic of the program.
+              </p>
+            </div>
+          </div>
+
+
+          <div onclick="firePhotography()" class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0 bg-img"
+            data-aos="zoom-in" data-aos-delay="300">
+            <div class="text-white icon-box3 ">
+              <h3><b>SPOT PHOTOGRAPHY</b></h4>
+                <p class="text-white">
+                  The Participants are required to submit the best
+                  photo taken according to the Subject given.
+                </p>
+            </div>
+          </div>
+
+
+          <div onclick="fireGame()" class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 bgimg1" data-aos="zoom-in"
+            data-aos-delay="100">
+            <div class="text-white icon-box4">
+              <h4>GAMES FEST</h4>
+              <p class="text-white">
+                The Main competition will have 3 knockout rounds, Consisting
+                of 2 or 3 PC games. The fest will also host Android games as spot
+                registrations. </p>
+            </div>
+          </div>
+
+
+          <div onclick="fireKeyBoard()" class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
+            data-aos-delay="200">
+            <div class="text-white icon-box5">
+              <h4>KEYBOARD ASSEMBLING</h4>
+              <p class="text-white">
+                Keyboard with missing keys are provided to
+                participants and required to assemble the keyboard correctly.
+                The winner is selected by time taken and correctness. </p>
+            </div>
+          </div>
+
+
+          <div onclick="fireSpotGame()" class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
+            data-aos-delay="300">
+            <div class="text-white icon-box6">
+              <h4>SPOT GAMES</h4>
+              <p class="text-white">
+                Participants are challenged with fun involved instant
+                games. Winner is selected considering overall performance. </p>
+            </div>
+          </div>
+
+          <div onclick="fireSpotDance()" class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
+            data-aos-delay="100">
+            <div class="text-white icon-box7">
+              <h4>SPOT DANCE</h4>
+              <p class="text-white">
+                Participants are challenged with varieties of songs on spot.
+                Winner is selected considering performance and instantaneity.
               </p>
             </div>
           </div>
@@ -859,6 +868,7 @@
 
         <!-- Template Main JS File -->
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/sAlert.js"></script>
 
 </body>
 

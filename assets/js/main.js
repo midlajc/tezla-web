@@ -285,13 +285,3 @@
   });
 
 })()
-
-function fireAlert() {
-  Swal.fire({
-    title: 'Auto close alert!',
-    text: 'I will close in 2 seconds.',
-    // timer: 2000,
-    showCancelButton: false,
-    showConfirmButton: false
-  })
-}
