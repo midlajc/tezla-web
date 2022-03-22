@@ -53,7 +53,7 @@ const fireGame = () => {
 
     Swal.fire({
         title: data.name,
-        text: 'I will close in 2 seconds.',
+        text: '.',
         // timer: 2000,
         showCancelButton: false,
         showConfirmButton: false
@@ -139,8 +139,13 @@ const fireExpo = () => {
         // text: 'I will close in 3 seconds.',
         // timer: 2000,
         html: `
-            <h4>test</h4>
-            <p>test</p>
+           <ul>
+           <li>${data.desc}</li>
+           <li>$</li>
+           <li></li>
+           <li></li>
+           <li></li>
+           </ul>
         `,
         showCancelButton: false,
         showConfirmButton: false
