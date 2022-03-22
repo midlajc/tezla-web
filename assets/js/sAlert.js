@@ -9,7 +9,7 @@ const fireCoding = () => {
         participation: '30',
         time: '10:00 AM onwards',
         regFee: '20',
-        prize:'<ul><li>First: 750</li> <li>Second: 500</li></ul>'
+        prize:'<ul><li>First: ₹750</li> <li>Second: ₹500</li></ul>'
     }
 
     Swal.fire({
@@ -57,7 +57,7 @@ const firePhotography = () => {
         participation: 'No Limit',
         time: '10:00 AM to 1:00 PM',
         regFee: '10',
-        prize:'500'
+        prize:'₹500'
     }
 
     Swal.fire({
@@ -105,7 +105,7 @@ const fireGame = () => {
         participation: '100',
         time: '10:00 AM onwards',
         regFee: '20',
-        prize:'<ul><li>First: 1000</li> <li>Second: 500</li></ul>'
+        prize:'<ul><li>First: ₹1000</li> <li>Second: ₹500</li></ul>'
     }
 
     Swal.fire({
@@ -153,7 +153,7 @@ const fireKeyBoard = () => {
         participation: '20',
         time: '10:00 AM onwards',
         regFee: '20',
-        prize:'500'
+        prize:'₹500'
     }
 
     Swal.fire({
@@ -201,7 +201,7 @@ const fireSpotGame = () => {
         participation: 'No Limit',
         time: '10:00 AM onwards',
         regFee: '10',
-        prize:'500'
+        prize:'₹500'
     }
 
     Swal.fire({
@@ -251,7 +251,7 @@ const fireSpotDance = () => {
         participation: 'No Limit',
         time: '3:00 PM onwards',
         regFee: '10',
-        prize:'750'
+        prize:'₹750'
     }
 
     Swal.fire({
