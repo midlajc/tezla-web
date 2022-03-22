@@ -9,7 +9,7 @@ const fireCoding = () => {
         participation: '30',
         time: '10:00 AM onwards',
         regFee: '20',
-        price:'<ul><li>First: 750</li> <li>Second: 500</li></ul>'
+        prize:'<ul><li>First: 750</li> <li>Second: 500</li></ul>'
     }
 
     Swal.fire({
@@ -38,8 +38,8 @@ const fireCoding = () => {
                     <td>${data.participation}</td>
                 </tr>
                 <tr>
-                    <th>Price</th>
-                    <td>${data.price}</td>
+                    <th>Prize</th>
+                    <td>${data.prize}</td>
                 </tr>
             </table>
             `,
@@ -57,7 +57,7 @@ const firePhotography = () => {
         participation: 'No Limit',
         time: '10:00 AM to 1:00 PM',
         regFee: '10',
-        price:'500'
+        prize:'500'
     }
 
     Swal.fire({
@@ -86,8 +86,8 @@ const firePhotography = () => {
                     <td>${data.participation}</td>
                 </tr>
                 <tr>
-                    <th>Price</th>
-                    <td>${data.price}</td>
+                    <th>Prize</th>
+                    <td>${data.prize}</td>
                 </tr>
             </table>
             `,
@@ -105,7 +105,7 @@ const fireGame = () => {
         participation: '100',
         time: '10:00 AM onwards',
         regFee: '20',
-        price:'<ul><li>First: 1000</li> <li>Second: 500</li></ul>'
+        prize:'<ul><li>First: 1000</li> <li>Second: 500</li></ul>'
     }
 
     Swal.fire({
@@ -134,8 +134,8 @@ const fireGame = () => {
                     <td>${data.participation}</td>
                 </tr>
                 <tr>
-                    <th>Price</th>
-                    <td>${data.price}</td>
+                    <th>Prize</th>
+                    <td>${data.prize}</td>
                 </tr>
             </table>
             `,
@@ -153,7 +153,7 @@ const fireKeyBoard = () => {
         participation: '20',
         time: '10:00 AM onwards',
         regFee: '20',
-        price:'500'
+        prize:'500'
     }
 
     Swal.fire({
@@ -182,8 +182,8 @@ const fireKeyBoard = () => {
                     <td>${data.participation}</td>
                 </tr>
                 <tr>
-                    <th>Price</th>
-                    <td>${data.price}</td>
+                    <th>Prize</th>
+                    <td>${data.prize}</td>
                 </tr>
             </table>
             `,
@@ -201,7 +201,7 @@ const fireSpotGame = () => {
         participation: 'No Limit',
         time: '10:00 AM onwards',
         regFee: '10',
-        price:'500'
+        prize:'500'
     }
 
     Swal.fire({
@@ -230,8 +230,8 @@ const fireSpotGame = () => {
                     <td>${data.participation}</td>
                 </tr>
                 <tr>
-                    <th>Price</th>
-                    <td>${data.price}</td>
+                    <th>Prize</th>
+                    <td>${data.prize}</td>
                 </tr>
             </table>
             `,
@@ -251,7 +251,7 @@ const fireSpotDance = () => {
         participation: 'No Limit',
         time: '3:00 PM onwards',
         regFee: '10',
-        price:'750'
+        prize:'750'
     }
 
     Swal.fire({
@@ -280,8 +280,8 @@ const fireSpotDance = () => {
                 <td>${data.participation}</td>
             </tr>
             <tr>
-                <th>Price</th>
-                <td>${data.price}</td>
+                <th>Prize</th>
+                <td>${data.prize}</td>
             </tr>
         </table>
         `,
@@ -300,7 +300,7 @@ const fireExpo = () => {
         participation: 'No Limit',
         time: '10:00 AM onwards',
         regFee: 'No Fee',
-        price:''
+        prize:''
     }
 
     Swal.fire({
