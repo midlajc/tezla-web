@@ -1104,6 +1104,12 @@ section {
 .counts .content {
   padding: 30px 0;
 }
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .counts .content h3 {
   font-weight: 700;
   font-size: 34px;
