@@ -1763,3 +1763,15 @@ section {
     margin: 1rem;
   }
 }
+
+.align-left {
+  text-align: left;
+}
+
+.margin-left{
+  padding: "100px";
+}
+
+th, td {
+  padding: 8px;
+}

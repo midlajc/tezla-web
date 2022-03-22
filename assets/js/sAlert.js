@@ -13,8 +13,31 @@ const fireCoding = () => {
 
     Swal.fire({
         title: "Coding Battle",
-        text: 'I will close in 2 seconds.',
-        // timer: 2000,
+        html: `
+            <p>${data.desc}</p>
+            <table class="align-left" align='center'>
+                <tr>
+                    <th>Registration fee</th>
+                    <td>${data.regFee}</td>
+                </tr>
+                <tr>
+                    <th>Registration Mode</th>
+                    <td>${data.registration}</td>
+                </tr>
+                <tr>
+                    <th>Venue</th>
+                    <td>${data.venue}</td>
+                </tr>
+                <tr>
+                    <th>Time</th>
+                    <td>${data.time}</td>
+                </tr>
+                <tr>
+                    <th>Max Participation</th>
+                    <td>${data.participation}</td>
+                </tr>
+            </table>
+            `,
         showCancelButton: false,
         showConfirmButton: false
     })
@@ -33,8 +56,31 @@ const firePhotography = () => {
 
     Swal.fire({
         title: data.name,
-        text: 'I will close in 2 seconds.',
-        // timer: 2000,
+        html: `
+            <p>${data.desc}</p>
+            <table class="align-left" align='center'>
+                <tr>
+                    <th>Registration fee</th>
+                    <td>${data.regFee}</td>
+                </tr>
+                <tr>
+                    <th>Registration Mode</th>
+                    <td>${data.registration}</td>
+                </tr>
+                <tr>
+                    <th>Venue</th>
+                    <td>${data.venue}</td>
+                </tr>
+                <tr>
+                    <th>Time</th>
+                    <td>${data.time}</td>
+                </tr>
+                <tr>
+                    <th>Max Participation</th>
+                    <td>${data.participation}</td>
+                </tr>
+            </table>
+            `,
         showCancelButton: false,
         showConfirmButton: false
     })
@@ -44,7 +90,7 @@ const fireGame = () => {
     let data = {
         name: "Game Fest",
         desc: 'The Main competition will have 3 knockout rounds, Consisting of 2 or 3 PC games. The fest will also host Android games as spot registrations.',
-        venue: 'CS Lab, Final round:Conference Hall',
+        venue: 'CS Lab, Final:Conference Hall',
         registration: 'Pre and Spot Registration',
         participation: '100',
         time: '10:00 AM onwards',
@@ -53,8 +99,31 @@ const fireGame = () => {
 
     Swal.fire({
         title: data.name,
-        text: '.',
-        // timer: 2000,
+        html: `
+            <p>${data.desc}</p>
+            <table class="align-left" align='center'>
+                <tr>
+                    <th>Registration fee</th>
+                    <td>${data.regFee}</td>
+                </tr>
+                <tr>
+                    <th>Registration Mode</th>
+                    <td>${data.registration}</td>
+                </tr>
+                <tr>
+                    <th>Venue</th>
+                    <td>${data.venue}</td>
+                </tr>
+                <tr>
+                    <th>Time</th>
+                    <td>${data.time}</td>
+                </tr>
+                <tr>
+                    <th>Max Participation</th>
+                    <td>${data.participation}</td>
+                </tr>
+            </table>
+            `,
         showCancelButton: false,
         showConfirmButton: false
     })
@@ -64,8 +133,8 @@ const fireKeyBoard = () => {
     let data = {
         name: "KeyBoard Assembling",
         desc: 'Keyboard with missing keys are provided to participants and required to assemble the keyboard correctly. The winner is selected by time taken and correctness.',
-        venue: 'Pre and Spot Registration',
-        registration: 'D3 BCA',
+        venue: 'D3 BCA',
+        registration: 'Pre and Spot Registration',
         participation: '20',
         time: '10:00 AM onwards',
         regFee: '20'
@@ -73,8 +142,31 @@ const fireKeyBoard = () => {
 
     Swal.fire({
         title: data.name,
-        text: 'I will close in 2 seconds.',
-        // timer: 2000,
+        html: `
+            <p>${data.desc}</p>
+            <table class="align-left" align='center'>
+                <tr>
+                    <th>Registration fee</th>
+                    <td>${data.regFee}</td>
+                </tr>
+                <tr>
+                    <th>Registration Mode</th>
+                    <td>${data.registration}</td>
+                </tr>
+                <tr>
+                    <th>Venue</th>
+                    <td>${data.venue}</td>
+                </tr>
+                <tr>
+                    <th>Time</th>
+                    <td>${data.time}</td>
+                </tr>
+                <tr>
+                    <th>Max Participation</th>
+                    <td>${data.participation}</td>
+                </tr>
+            </table>
+            `,
         showCancelButton: false,
         showConfirmButton: false
     })
@@ -86,15 +178,38 @@ const fireSpotGame = () => {
         desc: 'Participants are challenged with fun involved instant games. Winner is selected considering overall performance.',
         venue: 'D2 BCA',
         registration: 'Spot Registration',
-        participation: '',
+        participation: 'No Limit',
         time: '10:00 AM onwards',
         regFee: '10'
     }
 
     Swal.fire({
         title: data.name,
-        text: 'I will close in 2 seconds.',
-        // timer: 2000,
+        html: `
+            <p>${data.desc}</p>
+            <table class="align-left" align='center'>
+                <tr>
+                    <th>Registration fee</th>
+                    <td>${data.regFee}</td>
+                </tr>
+                <tr>
+                    <th>Registration Mode</th>
+                    <td>${data.registration}</td>
+                </tr>
+                <tr>
+                    <th>Venue</th>
+                    <td>${data.venue}</td>
+                </tr>
+                <tr>
+                    <th>Time</th>
+                    <td>${data.time}</td>
+                </tr>
+                <tr>
+                    <th>Max Participation</th>
+                    <td>${data.participation}</td>
+                </tr>
+            </table>
+            `,
         showCancelButton: false,
         showConfirmButton: false
     })
@@ -108,15 +223,38 @@ const fireSpotDance = () => {
         Winner is selected considering performance and instantaneity.`,
         venue: 'College Courtyard',
         registration: 'Spot Registration',
-        participation: '',
+        participation: 'No Limit',
         time: '3:00 PM onwards',
         regFee: '10'
     }
 
     Swal.fire({
         title: data.name,
-        text: 'I will close in 2 seconds.',
-        // timer: 2000,
+        html: `
+        <p>${data.desc}</p>
+        <table class="align-left" align='center'>
+            <tr>
+                <th>Registration fee</th>
+                <td>${data.regFee}</td>
+            </tr>
+            <tr>
+                <th>Registration Mode</th>
+                <td>${data.registration}</td>
+            </tr>
+            <tr>
+                <th>Venue</th>
+                <td>${data.venue}</td>
+            </tr>
+            <tr>
+                <th>Time</th>
+                <td>${data.time}</td>
+            </tr>
+            <tr>
+                <th>Max Participation</th>
+                <td>${data.participation}</td>
+            </tr>
+        </table>
+        `,
         showCancelButton: false,
         showConfirmButton: false
     })
@@ -131,22 +269,36 @@ const fireExpo = () => {
         registration: 'No Registration',
         participation: 'No Limit',
         time: '10:00 AM onwards',
-        regFee: ''
+        regFee: 'No Fee'
     }
 
     Swal.fire({
-        title: 'Expo',
-        // text: 'I will close in 3 seconds.',
-        // timer: 2000,
+        title: data.name,
         html: `
-           <ul>
-           <li>${data.desc}</li>
-           <li>$</li>
-           <li></li>
-           <li></li>
-           <li></li>
-           </ul>
-        `,
+            <p>${data.desc}</p>
+            <table class="align-left" align='center'>
+                <tr>
+                    <th>Registration fee</th>
+                    <td>${data.regFee}</td>
+                </tr>
+                <tr>
+                    <th>Registration Mode</th>
+                    <td>${data.registration}</td>
+                </tr>
+                <tr>
+                    <th>Venue</th>
+                    <td>${data.venue}</td>
+                </tr>
+                <tr>
+                    <th>Time</th>
+                    <td>${data.time}</td>
+                </tr>
+                <tr>
+                    <th>Max Participation</th>
+                    <td>${data.participation}</td>
+                </tr>
+            </table>
+            `,
         showCancelButton: false,
         showConfirmButton: false
     })
