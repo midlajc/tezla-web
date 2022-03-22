@@ -14,6 +14,16 @@
   src: url('/assets/font/tesla.ttf');
 }
 
+@font-face {
+  font-family: BreadleySans;
+  src: url('/assets/font/BreadleySans.ttf');
+}
+
+@font-face {
+  font-family: Vogue;
+  src: url('/assets/font/Vogue.ttf');
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -1780,4 +1790,16 @@ section {
 
 th, td {
   padding: 8px;
+}
+
+.aboutImg{
+  border-radius: 0.5rem;
+}
+
+.BreadleySans{
+  font-family: BreadleySans;
+}
+
+.Vogue{
+  font-family: Vogue;
 }
