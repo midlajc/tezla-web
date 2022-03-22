@@ -70,7 +70,7 @@ const fireKeyBoard = () => {
         time: '10:00 AM onwards',
         regFee: '20'
     }
-    
+
     Swal.fire({
         title: data.name,
         text: 'I will close in 2 seconds.',
@@ -112,7 +112,7 @@ const fireSpotDance = () => {
         time: '3:00 PM onwards',
         regFee: '10'
     }
-    
+
     Swal.fire({
         title: data.name,
         text: 'I will close in 2 seconds.',
@@ -136,8 +136,12 @@ const fireExpo = () => {
 
     Swal.fire({
         title: 'Expo',
-        text: 'I will close in 3 seconds.',
+        // text: 'I will close in 3 seconds.',
         // timer: 2000,
+        html: `
+            <h4>test</h4>
+            <p>test</p>
+        `,
         showCancelButton: false,
         showConfirmButton: false
     })
