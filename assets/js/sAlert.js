@@ -100,7 +100,7 @@ const fireGame = () => {
     let data = {
         name: "Game Fest",
         desc: 'The Main competition will have 3 knockout rounds, Consisting of 2 or 3 PC games. The fest will also host Android games as spot registrations.',
-        venue: '<ul><li>CS Lab</li> <li>Final:Conference Hall</li></ul>',
+        venue: 'CS Lab',
         registration: 'Pre and Spot Registration',
         participation: '100',
         time: '10:00 AM onwards',
