@@ -9,7 +9,7 @@ const fireCoding = () => {
         participation: '30',
         time: '10:00 AM onwards',
         regFee: '20',
-        prize:'<ul><li>First: ₹750</li> <li>Second: ₹500</li></ul>'
+        prize: '<ul><li>First: ₹750</li> <li>Second: ₹500</li></ul>'
     }
 
     Swal.fire({
@@ -57,7 +57,7 @@ const firePhotography = () => {
         participation: 'No Limit',
         time: '10:00 AM to 1:00 PM',
         regFee: '10',
-        prize:'₹500'
+        prize: '₹500'
     }
 
     Swal.fire({
@@ -105,7 +105,7 @@ const fireGame = () => {
         participation: '100',
         time: '10:00 AM onwards',
         regFee: '20',
-        prize:'<ul><li>First: ₹1000</li> <li>Second: ₹500</li></ul>'
+        prize: '<ul><li>First: ₹1000</li> <li>Second: ₹500</li></ul>'
     }
 
     Swal.fire({
@@ -153,7 +153,7 @@ const fireKeyBoard = () => {
         participation: '20',
         time: '10:00 AM onwards',
         regFee: '20',
-        prize:'₹500'
+        prize: '₹500'
     }
 
     Swal.fire({
@@ -201,7 +201,7 @@ const fireSpotGame = () => {
         participation: 'No Limit',
         time: '10:00 AM onwards',
         regFee: '10',
-        prize:'₹500'
+        prize: '₹500'
     }
 
     Swal.fire({
@@ -251,7 +251,7 @@ const fireSpotDance = () => {
         participation: 'No Limit',
         time: '3:00 PM onwards',
         regFee: '10',
-        prize:'₹750'
+        prize: '₹750'
     }
 
     Swal.fire({
@@ -300,7 +300,7 @@ const fireExpo = () => {
         participation: 'No Limit',
         time: '10:00 AM onwards',
         regFee: 'No Fee',
-        prize:''
+        prize: ''
     }
 
     Swal.fire({
@@ -329,6 +329,42 @@ const fireExpo = () => {
                     <td>${data.participation}</td>
                 </tr>
             </table>
+            `,
+        showCancelButton: false,
+        showConfirmButton: false
+    })
+}
+
+
+const fireFindMeOut = () => {
+    let data = {
+        name: "Find Me Out",
+        desc: 'Find the word using the given hints. Everyone can participate. Submit the answer using the given link',
+        time: 'Before 24/03/2022 2:00 PM',
+        prize: '₹200'
+    }
+
+    Swal.fire({
+        title: data.name,
+        html: `
+            <img class="findMe" src="assets/img/findme.jpg">
+            <p>${data.desc}</p>
+            <table class="align-left" align='center'>
+                <tr>
+                </tr>
+                <tr>
+                    <th>Time</th>
+                    <td>${data.time}</td>
+                </tr>
+                <tr>
+                    <th>Prize</th>
+                    <td>${data.prize}</td>
+                </tr>
+            </table>
+            <div style="margin:0.5rem">
+            <a class="btn btn-primary" href="https://forms.gle/dZ7seyu5dVCg4n2S9" target="_blank">Submit Your Answer</a>
+            </div>
+            </div>
             `,
         showCancelButton: false,
         showConfirmButton: false
