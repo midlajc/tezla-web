@@ -373,6 +373,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
+  min-height: 100vh;
   height: auto;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
