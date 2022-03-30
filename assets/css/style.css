@@ -11,17 +11,17 @@
 
 @font-face {
   font-family: tezlaFont;
-  src: url('assets/font/tesla.ttf');
+  src: url('https://midlajc.github.io/tezla-web/assets/font/tesla.ttf');
 }
 
 @font-face {
   font-family: BreadleySans;
-  src: url('assets/font/BreadleySans.ttf');
+  src: url('https://midlajc.github.io/tezla-web/assets/font/BreadleySans.ttf');
 }
 
 @font-face {
   font-family: Vogue;
-  src: url('assets/font/Vogue.ttf');
+  src: url('https://midlajc.github.io/tezla-web/assets/font/Vogue.ttf');
 }
 
 body {
