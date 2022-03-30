@@ -241,12 +241,11 @@ const fireSpotGame = () => {
 }
 
 const fireSpotDance = () => {
-    console.log("hello");
     let data = {
         name: "Spot Dance",
         desc: `Participants are challenged with varieties of songs on spot.
         Winner is selected considering performance and instantaneity.`,
-        venue: 'College Courtyard',
+        venue: 'Conference Hall',
         registration: 'Spot Registration',
         participation: 'No Limit',
         time: '3:00 PM onwards',
@@ -340,7 +339,7 @@ const fireFindMeOut = () => {
     let data = {
         name: "Find Me Out",
         desc: 'Find the word using the given hints. Everyone can participate. Submit the answer using the given link',
-        time: 'Before 24/03/2022 2:00 PM',
+        time: 'Before 01/04/2022 2:00 PM',
         prize: '₹200'
     }
 
