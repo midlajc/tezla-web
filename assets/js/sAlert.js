@@ -13,6 +13,7 @@ const fireCoding = () => {
     }
 
     Swal.fire({
+       
         title: "Coding Battle",
         html: `
             <p>${data.desc}</p>
@@ -43,6 +44,8 @@ const fireCoding = () => {
                 </tr>
             </table>
             `,
+            color: '#e1e3e1',
+            background: 'black',
         showCancelButton: false,
         showConfirmButton: false
     })
@@ -91,6 +94,8 @@ const firePhotography = () => {
                 </tr>
             </table>
             `,
+            color: '#e1e3e1',
+            background: 'black',
         showCancelButton: false,
         showConfirmButton: false
     })
@@ -139,6 +144,8 @@ const fireGame = () => {
                 </tr>
             </table>
             `,
+            color: '#e1e3e1',
+            background: 'black',
         showCancelButton: false,
         showConfirmButton: false
     })
@@ -187,6 +194,8 @@ const fireKeyBoard = () => {
                 </tr>
             </table>
             `,
+            color: '#e1e3e1',
+            background: 'black',
         showCancelButton: false,
         showConfirmButton: false
     })
@@ -235,6 +244,8 @@ const fireSpotGame = () => {
                 </tr>
             </table>
             `,
+            color: '#e1e3e1',
+            background: 'black',
         showCancelButton: false,
         showConfirmButton: false
     })
@@ -284,6 +295,8 @@ const fireSpotDance = () => {
             </tr>
         </table>
         `,
+        color: '#e1e3e1',
+            background: 'black',
         showCancelButton: false,
         showConfirmButton: false
     })
@@ -329,6 +342,8 @@ const fireExpo = () => {
                 </tr>
             </table>
             `,
+            color: '#e1e3e1',
+            background: 'black',
         showCancelButton: false,
         showConfirmButton: false
     })
@@ -365,6 +380,8 @@ const fireFindMeOut = () => {
             </div>
             </div>
             `,
+            color: '#e1e3e1',
+            background: 'black',
         showCancelButton: false,
         showConfirmButton: false
     })
