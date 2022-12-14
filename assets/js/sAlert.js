@@ -43,6 +43,8 @@ const fireCoding = () => {
                 </tr>
             </table>
             `,
+            background:"black",
+            color:"#e1e3e1" ,
         showCancelButton: false,
         showConfirmButton: false
     })
@@ -91,6 +93,8 @@ const firePhotography = () => {
                 </tr>
             </table>
             `,
+            background:"black",
+            color:"#e1e3e1" ,
         showCancelButton: false,
         showConfirmButton: false
     })
@@ -139,6 +143,8 @@ const fireGame = () => {
                 </tr>
             </table>
             `,
+            background:"black",
+            color:"#e1e3e1" ,
         showCancelButton: false,
         showConfirmButton: false
     })
@@ -187,6 +193,8 @@ const fireKeyBoard = () => {
                 </tr>
             </table>
             `,
+            background:"black",
+            color:"#e1e3e1" ,
         showCancelButton: false,
         showConfirmButton: false
     })
@@ -235,6 +243,8 @@ const fireSpotGame = () => {
                 </tr>
             </table>
             `,
+            background:"black",
+            color:"#e1e3e1" ,
         showCancelButton: false,
         showConfirmButton: false
     })
@@ -284,6 +294,8 @@ const fireSpotDance = () => {
             </tr>
         </table>
         `,
+        background:"black",
+        color:"#e1e3e1" ,
         showCancelButton: false,
         showConfirmButton: false
     })
@@ -339,9 +351,9 @@ const fireExpo = () => {
 
 const fireFindMeOut = () => {
     let data = {
-        name: "Find Me Out",
+        name: "Caccia al Tesoro",
         desc: 'Find the word using the given hints. Everyone can participate. Submit the answer using the given link',
-        time: 'Before 01/04/2022 2:00 PM',
+        time: 'Before 21/12/2022 2:00 PM',
         prize: '₹200'
     }
 
@@ -367,6 +379,8 @@ const fireFindMeOut = () => {
             </div>
             </div>
             `,
+            background:"black",
+            color:"#e1e3e1" ,
         showCancelButton: false,
         showConfirmButton: false
     })
