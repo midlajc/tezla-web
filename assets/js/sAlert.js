@@ -329,6 +329,8 @@ const fireExpo = () => {
                 </tr>
             </table>
             `,
+            background:"black",
+            color:"#e1e3e1" ,
         showCancelButton: false,
         showConfirmButton: false
     })
